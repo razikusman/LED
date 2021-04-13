@@ -28,8 +28,8 @@
     /* background-color: #212529; */
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #000000;
-  border-bottom: 3px solid rgb(0, 38, 255);
+  color: #2d01f0;
+  border-bottom: 3px solid rgb(255, 255, 255);
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:active {
     color: #dab200;
@@ -74,12 +74,10 @@ header.masthead {
   }
   
   @media (min-width: 768px) {
-    #mainNav {
-        padding-top: 0.1rem;
-        padding-bottom: 0.1rem;
-        /* background: linear-gradient(141deg, #0000006c 0%, #ffffff98 20%, #1504fca8 100%); */
-        /* background-color: #212529; */
-    }
+    .navbar-dark .navbar-toggler {
+        color: rgba(255, 255, 255, 0.5);
+        border-color: rgba(255, 255, 255, 0.1);
+      }
     
     header.masthead {
       padding-top: 17rem;
@@ -142,5 +140,22 @@ header.masthead {
     opacity: 1;
   }
   
-
+ 
   /* port folio end */
+
+  #mainNav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #212529;
+  }
+  
+  
+  @media (min-width: 992px) {
+    #mainNav {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      border: none;
+      background-color: transparent;
+      transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+    }
+  }
