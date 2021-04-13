@@ -24,7 +24,7 @@
 #mainNav {
     padding-top: 0.1rem;
     padding-bottom: 0.1rem;
-    background: linear-gradient(141deg, #0000006c 0%, #ffffff98 20%, #1504fca8 100%);
+    /* background: linear-gradient(141deg, #0000006c 0%, #ffffff98 20%, #1504fca8 100%); */
     /* background-color: #212529; */
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -50,7 +50,7 @@ header.masthead {
     padding-bottom: 6rem;
     text-align: center;
     color: rgb(0, 38, 255);
-    background-image: url("../assets/header-bg1.png");
+    background-image: url("../assets/header-bg.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -74,6 +74,12 @@ header.masthead {
   }
   
   @media (min-width: 768px) {
+    #mainNav {
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem;
+        /* background: linear-gradient(141deg, #0000006c 0%, #ffffff98 20%, #1504fca8 100%); */
+        /* background-color: #212529; */
+    }
     
     header.masthead {
       padding-top: 17rem;
@@ -95,6 +101,14 @@ header.masthead {
     }
     
   }
+
+/* service start */
+
+.service{
+    margin: 21%;
+}
+
+/* service end */
 
   /* port folio start */
 
